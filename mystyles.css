@@ -1,0 +1,190 @@
+.main
+{
+    background-color: rgb(225, 224, 224);
+    width: 1505px;
+    height: 1150px;
+    border: 1px solid rgb(231, 228, 228);
+}
+/*---------- Heading Part ----------*/
+.Head
+{
+    font: 40px/20px Inter;
+    background-color: #FFFFFF;
+    border: 1px solid whitesmoke;
+    padding-left: 60px;
+}
+.color
+{
+    color: #00A5EC;
+}
+/*---------- Left part ----------*/
+.text
+{
+    text-decoration-line: none;
+    color: #424242;
+    font-size: 30px;
+    margin-bottom: 50px;
+}
+#circle
+{
+    color: #00A5EC;
+    font-size: 50px;
+}
+#AddTask
+{
+    padding-top: 25px;
+    padding-left: 1150px;
+}
+/*---------- Containers ----------*/
+.indexbox
+{
+    position: absolute;
+    border: 1px solid #EDEDED;
+    width: 352px;
+    height: 360px;
+    border-radius: 10px; 
+    background-color: #FFFFFF; 
+}
+.indexbox:hover
+{
+    box-shadow: 0px 0px 8px black;
+    cursor: pointer;
+}
+.container1
+{
+    top: 260px;
+    left: 100px; 
+}
+.BoxHead
+{
+    color: #00A5EC;
+    font-size: 26px;
+    padding-left: 20px;
+}
+.Boxt1
+{
+    font-size: 22px;
+    text-decoration-line: line-through;
+    color: #C2C2C2;
+}
+.boxtpadd
+{
+    padding-left: 20px;
+}
+.hr
+{
+    color: #f0f0f0;
+}
+.Boxt2
+{
+    font-size: 22px;
+    color: #424242;
+}
+.container2
+{
+    top: 260px;
+    left: 526px;
+}
+.container3
+{
+    top: 260px;
+    left: 952px;
+}
+.container4
+{
+    top: 705px;
+    left: 100px;
+}
+.container5
+{
+    top: 705px;
+    left: 527px;
+}
+input
+{
+    width: 25px;
+    height: 25px;
+}
+/*---------- Page 2 Add New Task ----------*/
+.page2
+{
+    position: absolute;
+    border: 1px solid #EDEDED;
+    width: 500px;
+    height: 250px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 04px black;
+    top: 200px;
+    left: 500px; 
+    background-color: #FFFFFF;
+}
+.page2:hover
+{
+    box-shadow: 0px 0px 8px;
+}
+.cross
+{
+    margin-left: 280px;
+    color: #404040;
+}
+.pg2h
+{
+    padding-left: 8px;
+    font-size: 24px;
+    margin: 14px;
+    color: #404040;
+}
+.pg2input
+{
+    position: absolute;
+    top: 90px;
+    left: 20px;
+    width: 450px;
+    background-color: rgb(236, 236, 236);
+    columns: #858585;
+    border: 1px solid rgb(219, 217, 217);
+}
+.pg2ancr
+{
+    position: absolute;
+    top: 160px;
+    left: 300px;
+    text-decoration-line: none;
+    color: black;
+    padding: 14px 45px 14px 45px;
+    border-radius: 5px;
+    background-color: #00A5EC;
+    color: rgb(239, 238, 238);
+}
+/*---------- Page 3  ----------*/
+.pg3back
+{
+    position: absolute;
+    top: 174px;
+    left: 500px;
+    font-size: 26px;
+    text-decoration-line: none;
+    color: #424242;
+}
+.text3
+{
+    position: absolute;
+    right: 400px;
+    color: #424242;
+}
+.Boxt3pad
+{
+    padding-left: 20px;
+}
+.pg3box
+{
+    top: 250px;
+    left: 495px;
+    width: 450px;
+    height: 300px;
+}
+/*---------- Page 4 ----------*/
+.blr
+{
+    filter: blur(5px);
+}
